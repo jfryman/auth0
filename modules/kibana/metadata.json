@@ -1,0 +1,55 @@
+{
+  "name": "garethr-kibana",
+  "version": "0.2.0",
+  "source": "UNKNOWN",
+  "author": "garethr",
+  "license": "Apache License, Version 2.0",
+  "summary": "Module to manage the Kibana logstash interface",
+  "description": "UNKNOWN",
+  "project_page": "https://github.com/garethr/garethr-kibana",
+  "dependencies": [
+    {
+      "name": "puppetlabs/vcsrepo"
+    },
+    {
+      "name": "puppetlabs/git"
+    },
+    {
+      "name": "puppetlabs/ruby"
+    },
+    {
+      "name": "puppetlabs/stdlib"
+    },
+    {
+      "name": "ploperations/bundler"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "84708ea1c9b80130a40fde87376882b9",
+    "Gemfile.lock": "c2cd23342abc2b1e207e7c5d32cb3c06",
+    "LICENSE": "e7fff5d8ca4f44f1279782ead2da5925",
+    "Modulefile": "7aaa95aee73651668cfd6e2063b7ff30",
+    "README.md": "826980e610001d7f0faa575fcd884e76",
+    "Rakefile": "c6a91ef43608c5d4b22bc7e50a94d6a5",
+    "manifests/config.pp": "adddd97d8e74ae61311fe8eec8aeb916",
+    "manifests/init.pp": "bfb2d79c23fe6b1755e8a6660ea66829",
+    "manifests/install.pp": "e7db37d1f50a037f668b437a750eecfd",
+    "manifests/service.pp": "de45b04015a178404e4b444ae7938318",
+    "spec/classes/kibana/kibana_spec.rb": "458e631f68ba86458160a371e3704f07",
+    "spec/fixtures/modules/wget/Gemfile": "4867df718b033e152c59c2a418e88b92",
+    "spec/fixtures/modules/wget/Gemfile.lock": "b3e4cf700f055d8d242ad877da298127",
+    "spec/fixtures/modules/wget/Modulefile": "319654cea17d4ad7af5a45f4746f6678",
+    "spec/fixtures/modules/wget/README.md": "53e3a8bdf9ad988aae9b9581831bbcd6",
+    "spec/fixtures/modules/wget/Rakefile": "527f8893f2694a9bc92993074f011cc3",
+    "spec/fixtures/modules/wget/manifests/init.pp": "7a1575c5a0a755b01dcdd2dbf4f8e956",
+    "spec/fixtures/modules/wget/spec/classes/init_spec.rb": "337ce66ffc43c7478ff0d3ff166d278a",
+    "spec/fixtures/modules/wget/spec/fixtures/manifests/site.pp": "627dec82fd1b0d0b4f9e47135ed3e1b7",
+    "spec/fixtures/modules/wget/spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "templates/etc/init/kibana.conf.erb": "f64e5dd36e56c6d8d974368b436030ba",
+    "templates/opt/kibana/KibanaConfig.rb.erb": "4b263084ab12a7f5c71e69b8f13d754a"
+  }
+}

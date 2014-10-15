@@ -1,0 +1,13 @@
+input {
+  file {
+    type => "log"
+    path => "/var/log/mongodb/mongodb.log"
+  }
+}
+output {
+  elasticsearch {
+    host     => "<%= @ipaddress %>"
+    protocol => "http"
+    port     => "9200"
+  }
+}

@@ -1,0 +1,9 @@
+---
+:backends:
+  - yaml
+  - module_data
+:merge_behavior: deeper
+:yaml:
+  :datadir: "%{settings::manifestdir}/hiera"
+:hierarchy:
+  - common
